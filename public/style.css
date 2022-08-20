@@ -135,7 +135,7 @@ body {
   justify-content: center;
   margin: 0;
   height: 100vh;
-  background-image: url(img2.jpg);
+  background-image: url(./assests/images/img2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   flex-direction: column;
@@ -263,6 +263,3 @@ form {
   color: aliceblue;
   top: 75%;
 } */
-
-.file-up input {
-}
