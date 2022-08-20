@@ -1,0 +1,268 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* Styling */
+/* body {
+  line-height: 1;
+  text-align: center;
+}
+
+#main-heading {
+  border: none;
+  font-size: 45px;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+#main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30vh;
+  height: 30vh;
+  justify-content: center;
+  /* height: 100%;
+  width: 100%; */
+/* }
+#myfile {
+  display: inline-block;
+  padding: 30px;
+}
+#uploadForm {
+  display: flex;
+  flex-direction: column;
+} */
+:root {
+  --ff-primary: "Source Sans Pro", sans-serif;
+
+  --boxs: 0.25em 0.25em 1em rgba(0, 0, 0, 0.35),
+    0.25em 0.25em 1em rgba(0, 0, 0, 0.35);
+
+  --fw-reg: 300;
+  --fw-bold: 900;
+
+  --color-dark: #191919;
+  --color-light: #e6e8e6;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 100vh;
+  background-image: url(img2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-direction: column;
+}
+#main-heading {
+  border: none;
+  color: rgb(35, 37, 39);
+  font-size: 45px;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+#main-content {
+  display: flex;
+  flex-direction: column;
+  font-size: larger;
+  text-align: center;
+  flex-wrap: wrap;
+  max-height: 450px;
+  background: var(--color-dark);
+  opacity: 0.7;
+  color: white;
+  padding: 2.5em;
+  width: 100%;
+  max-width: 450px;
+  border-radius: 20px;
+  margin: 1em;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  justify-content: space-evenly;
+  justify-content: center;
+  /* width: 100%; */
+  height: 100%;
+}
+
+#myfile {
+  display: flex;
+  position: relative;
+  /* background: #000; */
+  /* border: 1px solid #9e9393; */
+  /* padding: 15px 90px; */
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  /* padding: auto; */
+  /* justify-content: center; */
+}
+#upload {
+  display: flex;
+  position: relative;
+  /* background: #000; */
+  /* border: 1px solid #9e9393; */
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+/* #upload {
+  /* padding-left: 80px; */
+
+/* #myfile {
+  padding-right: 70px;
+} */
+#upload input {
+  position: relative;
+  padding: 1rem 3rem;
+  background: transparent;
+  display: inline-block;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 0.5px solid white;
+  color: #e6e8e6;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* #upload input::hover {
+  background: darken(#0c8fda, 5);
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s all;
+} */
+#myfile input {
+  position: relative;
+  padding: 1rem 3rem;
+  background: transparent;
+  /* display: inline-block; */
+  /* text-align: center; */
+  overflow: hidden;
+  border-radius: 10px;
+  border: 0.5px solid white;
+  color: #e6e8e6;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  /* padding-right: -100px; */
+  box-sizing: border-box;
+  vertical-align: middle;
+  align-items: center;
+}
+#status {
+  font-family: "Montserrat", sans-serif;
+}
+/* #myfile input {
+  font-weight: none;
+  color: rgb(165, 182, 199);
+  background-color: transparent;
+  padding: 0.5em;
+  border-radius: 3px;
+} */
+
+/* #myfile input {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+  color: aliceblue;
+  top: 75%;
+} */
+
+.file-up input {
+}
