@@ -5,8 +5,8 @@ const _ = require("lodash");
 var app = express();
 var PORT = 9000;
 app.use(express.static("public"));
-app.get("/images/:image", (req, res) => {
-  res.sendFile(__dirname + "/images/" + req.params.image);
+app.get("/file/:file", (req, res) => {
+  res.sendFile(__dirname + "/images/" + req.params.file);
 });
 
 var storage = multer.diskStorage({
